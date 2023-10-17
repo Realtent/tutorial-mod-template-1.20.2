@@ -16,5 +16,9 @@
 
   "item.tutorialmod.tomato": "Tomato",
 
+  "item.tutorialmod.coal_briquette": "Coal Briquette",
+
+  "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground",
+
   "itemgroup.ruby": "Ruby Tutorial Group"
 }
