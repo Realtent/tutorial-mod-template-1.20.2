@@ -12,6 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.realtent.tutorialmod.block.custom.SoundBlock;
+import net.realtent.tutorialmod.block.custom.TomatoCropBlock;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -55,7 +56,8 @@ public class ModBlocks {
     public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque(), BlockSetType.IRON));
 
-
+    public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "tomato_crop"),
+            new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
 
 
