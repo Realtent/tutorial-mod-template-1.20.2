@@ -44,5 +44,7 @@
   "item.tutorialmod.ruby_boots": "Ruby Boots",
   "item.tutorialmod.tomato_seeds": "Tomato Seeds",
 
+  "sounds.tutorialmod.metal_detector_found_ore": "Metal Detector Jingle",
+
   "itemgroup.ruby": "Ruby Tutorial Group"
 }

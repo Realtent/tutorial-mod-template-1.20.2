@@ -18,6 +18,9 @@
 		"main": [
 			"net.realtent.tutorialmod.TutorialMod"
 		],
+		"client": [
+			"net.realtent.tutorialmod.TutorialModClient"
+		],
 		"fabric-datagen": [
 			"net.realtent.tutorialmod.TutorialModDataGenerator"
 		]
