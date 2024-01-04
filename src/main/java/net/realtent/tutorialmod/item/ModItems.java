@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.realtent.tutorialmod.block.ModBlocks;
+import net.realtent.tutorialmod.entity.ModEntities;
 import net.realtent.tutorialmod.item.custom.MetalDetectorItem;
 import net.realtent.tutorialmod.item.custom.ModArmorItem;
 
@@ -44,6 +45,9 @@ public class ModItems {
 
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
             new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
+
+    public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
+            new SpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

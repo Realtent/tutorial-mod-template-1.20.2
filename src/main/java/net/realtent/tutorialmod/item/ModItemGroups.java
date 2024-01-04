@@ -61,6 +61,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_BOOTS);
 
                         entries.add(ModItems.TOMATO_SEEDS);
+
+                        entries.add(ModItems.PORCUPINE_SPAWN_EGG);
                     }).build());
 
 
